@@ -1,0 +1,104 @@
+* {
+    margin: 0%;
+}
+
+.main-container {
+    background-color: #ede2de;
+    height: 77vh;
+    box-shadow: 0px 2px 4px 2px grey;
+
+
+}
+
+.intro-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.info {
+    margin-top: 10%;
+    margin-left: 40px;
+}
+
+.profile {
+    margin-top: 3.5%;
+}
+
+.name {
+    color: rgb(61, 92, 119);
+
+}
+
+.img {
+    height: 60vh;
+    width: 50vh;
+    border-radius: 50%;
+    /* border:225px double rgb(154, 113, 121); */
+    border: 10px double rgb(154, 113, 121);
+    box-shadow: 2px 3px 10px 1px rgb(154, 113, 121);
+
+    margin-top: 8%;
+    mix-blend-mode: darken;
+    
+}
+
+.connection {
+    display: flex;
+    justify-content: space-around;
+    height: 5vh;
+    margin: 7px;
+}
+
+.platform {
+    height: 35px;
+    margin: 7px;
+    background-color: rgb(188, 169, 173);
+    padding: 7px;
+    border-radius: 5px;
+    padding-inline: 5%;
+    box-shadow: 1px 2px 2px 2px rgb(216, 215, 215);
+}
+
+.skills-sec {
+    height: 100vh;
+}
+
+.heading {
+    margin-inline: 45%;
+    margin-top: 6%;
+}
+
+.skills-icon {
+    height:40vh;
+    width:97.3vw;
+    padding:5%;
+    margin: 10px;
+    /* margin-block: 5%; */
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(237, 222, 225) ;
+    box-shadow: 1px 1px 7px 3px rgb(154, 113, 121) inset;
+}
+
+.skills {
+    height: 27vh;
+}
+/* .project-sec{
+    
+} */
+.prj-heading{
+    margin-inline: 40%;
+}
+.card-sec{
+display: flex;
+justify-content:space-evenly;
+
+}
+.btn-sec{
+    /* background-color:rgb(28, 95, 73); */
+    display: flex;
+    justify-content:space-around;
+}
+
